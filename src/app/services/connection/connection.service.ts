@@ -12,8 +12,8 @@ export class ConnectionService {
 
   constructor(private http: HttpClient) { }
 
-  getBreweries(): Observable<Breweries[]>{
-    return this.http.get<any>(this.API_URL)
-  }
+    getBreweries(): Observable<Breweries[]>{
+      return this.http.get<any>(this.API_URL)
+    }
 
 }
